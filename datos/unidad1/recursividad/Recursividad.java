@@ -11,7 +11,17 @@ public class Recursividad {
         }
     }
 
+    public static void cuentaRegresiva(int n) {
+        if (n < 1) {
+            return;
+        } else {
+            System.out.print(n + " ");
+            cuentaRegresiva(n - 1);
+        }
+    }
+
     public static void main(String[] a) {
         saludo(10, "Ale");
+        cuentaRegresiva(10);
     }
 }
