@@ -1,2 +1,4 @@
-# portafolio
-Asignatura de Estructura de Datos
+# Estructura de Datos
+
+**Autor:** Camacho Gómez
+## Listas Simples
